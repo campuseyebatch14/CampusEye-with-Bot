@@ -76,29 +76,6 @@ pip install -r requirements.txt
 
 The project requires several libraries including Flask, deepface, opencv-python, pymongo, and cloudinary.
 
-### 4\. Configure Environment Variables
-
-Create a .env file in the root directory and add the following keys:
-
-Code snippet
-
-# Flask
-FLASK_SECRET_KEY=your_secret_key
-
-# MongoDB
-MONGODB_URI=your_mongodb_connection_string
-
-# Cloudinary
-CLOUD_NAME=your_cloud_name
-API_KEY=your_api_key
-API_SECRET=your_api_secret
-
-# EmailJS
-EMAILJS_SERVICE_ID=your_service_id
-EMAILJS_TEMPLATE_ID=your_template_id
-EMAILJS_USER_ID=your_user_id
-EMAILJS_PRIVATE_KEY=your_private_key
-RECIPIENT_EMAIL=admin@example.com
 
 🏃 Running the Application
 --------------------------
@@ -109,7 +86,7 @@ Launch the Flask server to manage student registrations:
 
 Bash
 
-python app.py  `
+python app.py  
 
 Access the dashboard at http://127.0.0.1:5000.
 
